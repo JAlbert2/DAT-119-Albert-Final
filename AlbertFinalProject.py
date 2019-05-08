@@ -222,7 +222,7 @@ def simple(cipher):
         print('M: ' + str(final['m']) + ' ','Z: ' + str(final['z']), sep='\t')
         print('\n')
 
-        user = input('What would you like to chage(Ex: A=F):')
+        user = input('What would you like to change(Ex: A=F):')
         while('=' not in user):
             user = input('What would you like to chage(Ex: A=F)[Need the =]:')
 
@@ -405,7 +405,7 @@ def simple(cipher):
 
         choice = input('Return home?(y/n)').lower()
         if ('y' in choice):#Loops if the user wants to loop
-            choice = 0
+            choice = 10
 
 
 def enterCode():
